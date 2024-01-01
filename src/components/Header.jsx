@@ -31,7 +31,7 @@ const Header = () => {
         }
     ]);
     const[actionButton,setActionButton]=useState({
-        title:"Download Resume",
+        title:"Download Resume"
     });
     
   return (
@@ -50,7 +50,7 @@ const Header = () => {
         <a href="/contact"className="hover:text-orange-600">Contact</a> */}
       </div>
       <div>{/*Buttons */}
-        <button href={actionButton.link} className="px-3 py-2 bg-orange-500 rounded-full shadow text-white text-1xl">{actionButton.title}</button>
+        <button href="https://drive.google.com/file/d/18kexrXtcbbRzRE8dIweC7HcERTECpyFj/view?usp=drive_link" className="px-3 py-2 bg-orange-500 rounded-full shadow text-white text-1xl">{actionButton.title}</button>
       </div>
     </div>
   )
